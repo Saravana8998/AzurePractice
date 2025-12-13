@@ -1,0 +1,9 @@
+{
+	"name": "adfrealtimesp",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b96e9e55-11fb-456b-a341-5bc6a67e9af2",
+		"tenantId": "c4581555-77cb-446a-8350-a7fbd88fd749"
+	}
+}
