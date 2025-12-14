@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfadvanced"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://advadfstorage.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "advadf.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "adf_adv"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "saravana"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon/"
+		},
+		"StorageEventsTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/5771dd8a-c1fe-4b2e-a64d-3437b601cd09/resourceGroups/rg-adfpractice/providers/Microsoft.Storage/storageAccounts/storageaccadfpracticesp"
+		},
+		"TumblingWindowTrigger_properties_pipeline_parameters_pWindowStart": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"TumblingWindowTrigger_properties_pipeline_parameters_pWindowEnd": {
+			"value": "@trigger().outputs.windowEndTime"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
